@@ -1,0 +1,39 @@
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    width: 250px;
+    background-color: #212121;
+    border-radius: 20px;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+    -5px -5px 30px rgb(51, 49, 49);
+    transition: transform 0.2s ease-in-out;
+    transform-style: preserve-3d;
+    &:hover {
+        transform: scale(1.1) rotateX(10deg) rotateY(6deg);
+    }
+
+    .icon {
+        width: 60px;
+        height: 60px;
+        background-color: crimson;
+        z-index: 1;
+    }
+    .skill.skillInfo {
+        transform: translate(-50%, -50%) rotateY(180deg);
+        transform-style: preserve-3d;
+        backface-visibility: hidden;
+        color: white;
+    }
+}
+
+.skillInfo .description {
+    text-align: center;
+    overflow-wrap: break-word;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    color: white;
+}

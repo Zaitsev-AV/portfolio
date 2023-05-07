@@ -1,0 +1,84 @@
+.contactsBlock {
+    background-color: #171817;
+
+    .contactsContainer {
+        flex-direction: column;
+        min-height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        margin: 0 auto;
+        @media screen and (max-width: 768px) {
+                width: 90%;
+        }
+
+        .contactForm {
+            background-color: #171817;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+            min-width: 350px;
+            @media screen and (max-width: 768px) {
+                    min-width: 250px;
+            }
+
+
+             label {
+                color: #fff;
+            }
+            .contactForm .heading {
+                font-size: 24px;
+                color: #fff;
+                margin-bottom: 12px;
+                font-weight: bold;
+                display: block;
+            }
+             form {
+                display: flex;
+                flex-direction: column;
+            }
+            label {
+                margin-bottom: 10px;
+            }
+            textarea {
+                resize: none;
+                height: 80px;
+                width: 200px;
+            }
+            input, textarea {
+                padding: 10px;
+                border: none;
+                border-radius: 5px;
+                margin-bottom: 20px;
+                background-color: #333;
+                color: #fff;
+                width: 100%;
+            }
+            input:focus, textarea:focus {
+                outline: none;
+                box-shadow: 0 0 5px #ff6384, 0 0 25px #ff6384;
+                transform: scale(1.05);
+                transition: transform 0.3s ease-in-out;
+            }
+            button[type="submit"] {
+                background-color: #ff6384;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                padding: 10px 20px;
+                font-size: 16px;
+                cursor: pointer;
+            }
+            button[type="submit"]:hover {
+                transform: scale(1.1);
+                transition: transform 0.3s ease-in-out;
+                box-shadow: 0 0 10px #ff6384, inset 0 0 10px #ff6384;
+            }
+        }
+    }
+}
+
+
+
