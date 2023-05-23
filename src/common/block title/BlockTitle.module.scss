@@ -10,6 +10,7 @@
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+    padding-top: 50px;
 }
 
 .text_center {
@@ -18,7 +19,7 @@
 
 .title {
     padding: 16px;
-    margin: 0 0 16px 0;
+    margin: 0 0 50px 0;
     text-transform: uppercase;
     display: inline-block;
     position: relative;
@@ -28,7 +29,8 @@
     /*-webkit-transition: all 2s cubic-bezier(0.21, 1, 0.84, 1.01);*/
     /*transition: all 2s cubic-bezier(0.21, 1, 0.84, 1.01);*/
     border: 2px solid #31383d;
-    min-width: 350px;
+    max-width: 350px;
+    width: 100%;
 }
 .title:hover {
     background-color: #72383e;
@@ -39,7 +41,7 @@
 
 @media (min-width: 365px) {
     .title {
-        min-width: 320px;
+        //min-width: 320px;
         font-size: 22px;
 
     }
