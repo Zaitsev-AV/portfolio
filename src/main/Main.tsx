@@ -3,12 +3,16 @@ import s from './Main.module.scss'
 import { Header } from "../header/Header";
 import { About } from "../aboutMe/About";
 
+
 export type MainPropsType = {};
 export const Main: React.FC<MainPropsType> = ( props ) => {
 	const {} = props
+
+	
 	return (
-		<div className={ s.mainBlock }>
-			<Header/>
+		<div className={ s.mainBlock } id={'Home'}>
+			
+				<Header/>
 			<div className={ s.main_container }>
 				<span className={s.el_1}></span>
 				<span className={s.el_2}></span>

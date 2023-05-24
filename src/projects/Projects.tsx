@@ -17,7 +17,7 @@ export const Projects: React.FC<ProjectsPropsType> = ( props ) => {
 	return (
 		<>
 			<div className={s.projectsBlock}>
-				<BlockTitle title={'My projects'}/>
+				<BlockTitle title={'My projects'} id={'section3'}/>
 				<div className={`${s.projectContainer}`}>
 					<div className={s.projects}>
 						<Project title={'Quiz'} style={quiz}/>

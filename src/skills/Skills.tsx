@@ -9,7 +9,7 @@ export const Skills: React.FC<SkillsPropsType> = ( props ) => {
 	const {} = props
 	return (
 		<div className={ s.skillsBlock }>
-			<BlockTitle title={'Skills'}/>
+			<BlockTitle title={'Skills'} id={'section2'}/>
 			<div className={ `${ s.skillsContainer }` }>
 				
 				<div className={ s.skills }>
