@@ -10,7 +10,7 @@ function App() {
     console.log( 'hello world' )
     return (
         <div className="App">
-            <Main/>
+            <Main />
             <Skills/>
             <Projects/>
             <Contacts/>

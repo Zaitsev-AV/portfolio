@@ -9,12 +9,12 @@ export const About: React.FC<AboutPropsType> = ( props ) => {
 	const {} = props
 	return (
 		<>
-			<BlockTitle title={'who am i'}/>
-			<div className={ s.about_container }>
+			<BlockTitle title={'who am i'} id={'section1'}/>
+			<div className={ s.about_container } >
 				<div className={ s.photo }>
 					<img src={ me } alt=""/>
 				</div>
-				< div className={ s.text }>
+				< div className={ s.text } >
 					<h1>Hello, my name is Alexander</h1>
 					<p>I'm a front-end developer. I have
 					   experience in creating SPA (Single Page Applications) using

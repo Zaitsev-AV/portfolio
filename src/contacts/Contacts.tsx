@@ -9,9 +9,9 @@ export const Contacts: React.FC<ContactsPropsType> = ( props ) => {
 	return (
 		<>
 			<div className={s.contactsBlock}>
-				<BlockTitle title={'Contacts'}/>
+				<BlockTitle title={'Contacts'} />
 				<div className={ s.contactsContainer }>
-					<div className={ s.contactForm }>
+					<div className={ s.contactForm } id={'section4'}>
 						<form>
 							<label htmlFor="name">Name:</label>
 							<input type="text"

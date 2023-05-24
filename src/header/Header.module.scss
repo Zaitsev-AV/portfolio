@@ -1,9 +1,21 @@
 .header {
     display: flex;
-    justify-content: flex-end;
+    //justify-content: flex-start;
     align-items: center;
     height:80px;
     padding-right: 50px;
     padding-top: 40px;
+    padding-bottom: 20px;
     /*background-color: antiquewhite;*/
+    &.scrolled {
+        .naviget {
+            background-color: rgba(45, 51, 59, 0.5);
+        }
+    }
+}
+.naviget {
+    position: fixed;
+    width: 100%;
+    transition: top 0.3s ease-in-out;
+    z-index: 15;
 }
