@@ -5,6 +5,9 @@
     text-decoration: none;
     transition: transform 0.2s ease-in-out;
     transform-style: preserve-3d;
+    margin: 25px;
+    height: 100%;
+    max-width: 500px;
     &:hover {
         transform: scale(0.95) rotateX(3deg) rotateY(2deg);
     }
@@ -19,7 +22,7 @@
         /*-15px -15px 30px rgb(60, 60, 60);*/
         text-align: center;
         margin: 10px;
-        width: 100%;
+
         h3 {
             font-size: 25px;
             color: #d9d6d6;

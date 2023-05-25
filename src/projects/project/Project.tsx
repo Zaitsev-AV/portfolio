@@ -5,9 +5,10 @@ export type ProjectPropsType = {
 	style?: {
 		backgroundImage: string
 	}
+	text?: string
 };
 export const Project: React.FC<ProjectPropsType> = ( props ) => {
-	const {title, style} = props
+	const {title, style, text} = props
 	return (
 		<a href={'/?'} className={s.wrapper}>
 			<div className={s.projectContainer}>
@@ -15,7 +16,7 @@ export const Project: React.FC<ProjectPropsType> = ( props ) => {
 				<div className={s.imgContainer} style={style}>
 					{/*<a className={s.link} href="/#">look</a>*/}
 				</div>
-				<span className={s.description}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, quas.</span>
+				<span className={s.description}>{text}</span>
 			</div>
 		</a>
 		

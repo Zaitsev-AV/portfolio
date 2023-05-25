@@ -17,15 +17,18 @@
     }
 
     .icon {
-        width: 60px;
-        height: 60px;
-        background-color: crimson;
+        width: 80px;
+        height: 80px;
+        //background-color: crimson;
         z-index: 1;
     }
     .skill.skillInfo {
         transform: translate(-50%, -50%) rotateY(180deg);
         transform-style: preserve-3d;
         backface-visibility: hidden;
+        //color: white;
+    }
+    h2 {
         color: white;
     }
 }
@@ -34,6 +37,7 @@
     text-align: center;
     overflow-wrap: break-word;
     transform: rotateY(180deg);
+    font-size: 15px;
     backface-visibility: hidden;
-    color: white;
+    color: #dac6c6;
 }

@@ -3,6 +3,9 @@ import s from './Projects.module.scss'
 import { Project } from "./project/Project";
 import { BlockTitle } from "../common/block title/BlockTitle";
 import quizProject from "../assets/img/quiz.jpg"
+import todo from "../assets/img/logo_todo.png"
+import socNet from "../assets/img/soc-network.svg"
+import counterImg from "../assets/img/counter.png"
 
 export type ProjectsPropsType = {
 
@@ -13,6 +16,16 @@ export const Projects: React.FC<ProjectsPropsType> = ( props ) => {
 	const quiz = {
 		backgroundImage: `url(${quizProject})`
 	}
+	const todoList = {
+		backgroundImage: `url(${todo})`
+	}
+	const socialNetwork = {
+		backgroundImage: `url(${socNet})`
+	}
+	
+	const counter = {
+		backgroundImage: `url(${counterImg})`
+	}
 	
 	return (
 		<>
@@ -20,10 +33,10 @@ export const Projects: React.FC<ProjectsPropsType> = ( props ) => {
 				<BlockTitle title={'My projects'} id={'section3'}/>
 				<div className={`${s.projectContainer}`}>
 					<div className={s.projects}>
-						<Project title={'Quiz'} style={quiz}/>
-						<Project title={'Todo list'}/>
-						<Project title={'Counter'}/>
-						<Project title={'Social Network'}/>
+						<Project title={'Quiz'} style={quiz} text={'Technologies used: React, Redux, TypeScript, Vite, Vitest, CSS.'}/>
+						<Project title={'Todo list'} style={todoList} text={'Technologies used: React, Redux, TypeScript, React-Router, Material UI, Vite, Vitest, Formik, CSS.'}/>
+						<Project title={'Counter'} style={counter} text={'Technologies used: React, Redux, TypeScript, Vite, CSS.'}/>
+						<Project title={'Social Network'} style={socialNetwork} text={'Technologies used: React(FC and class component), Redux, TypeScript, React-Router, Jest, StoryBook, useForm, CSS.'}/>
 					</div>
 				</div>
 			</div>
