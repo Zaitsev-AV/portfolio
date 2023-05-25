@@ -28,7 +28,7 @@ export const Navbar: React.FC = (  ) => {
 				to="section1"
 				spy={true}
 				smooth={true}
-				offset={-100}
+				offset={20}
 				duration={800}
 			>ABOUT</Link>
 			<Link
@@ -36,7 +36,7 @@ export const Navbar: React.FC = (  ) => {
 				to="section2"
 				spy={true}
 				smooth={true}
-				offset={-100}
+				offset={15}
 				duration={900}
 			>SKILLS</Link>
 			<Link
@@ -44,7 +44,7 @@ export const Navbar: React.FC = (  ) => {
 				to="section3"
 				spy={true}
 				smooth={true}
-				offset={-100}
+				offset={20}
 				duration={1000}
 			>PROJECTS</Link>
 			<Link
@@ -52,7 +52,7 @@ export const Navbar: React.FC = (  ) => {
 				to="section4"
 				spy={true}
 				smooth={true}
-				offset={-220}
+				offset={-200}
 				duration={1100}
 			>CONTACTS</Link>
 		</nav>

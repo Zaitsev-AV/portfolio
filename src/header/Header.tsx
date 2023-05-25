@@ -13,7 +13,7 @@ export const Header: React.FC<HeaderPropsType> = ( props ) => {
 
 	return (
 		<div className={s.header}>
-			<div className={`${s.naviget} ${scrolled ? s.scrolled : ''}`}>
+			<div className={`${s.navigation} ${scrolled ? s.scrolled : ''}`}>
 		<Navbar/>
 			</div>
 		</div>

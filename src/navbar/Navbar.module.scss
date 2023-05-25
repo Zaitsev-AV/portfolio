@@ -8,7 +8,10 @@
     padding-right: 50px;
     border-bottom-color: #212121;
     &.scrolled {
-        background-color: rgba(45, 51, 59, 0.5);
+        background-color: rgba(45, 51, 59, 0.2);
+        &:hover {
+            background-color: rgba(45, 51, 59, 0.5);
+        }
     }
 
 
