@@ -6,6 +6,7 @@ export type ProjectPropsType = {
 		backgroundImage: string
 	}
 	text?: string
+	img?: string
 };
 export const Project: React.FC<ProjectPropsType> = ( props ) => {
 	const {title, style, text} = props

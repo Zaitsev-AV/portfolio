@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './About.module.scss'
-import me from '../assets/img/me.jpg'
+import me from '../assets/img/me2.png'
 import { SocialIcon } from "../common/social/SocialIcon";
 import { BlockTitle } from "../common/block title/BlockTitle";
 
@@ -11,6 +11,7 @@ export const About: React.FC<AboutPropsType> = ( props ) => {
 		<>
 			<BlockTitle title={'who am i'} id={'section1'}/>
 			<div className={ s.about_container } >
+				
 				<div className={ s.photo }>
 					<img src={ me } alt=""/>
 				</div>
