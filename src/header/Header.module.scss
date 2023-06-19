@@ -2,14 +2,15 @@
     display: flex;
     //justify-content: flex-start;
     align-items: center;
-    height:80px;
+    height:50px;
     padding-right: 50px;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 20px;
     /*background-color: antiquewhite;*/
     &.scrolled {
         .navigation {
-            background-color: rgba(45, 51, 59, 0.5);
+            //background-color: rgba(45, 51, 59, 0.5);
+            background-color: #1e2326;
         }
     }
 }

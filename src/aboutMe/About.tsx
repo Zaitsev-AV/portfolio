@@ -4,9 +4,7 @@ import me from '../assets/img/me2.png'
 import { SocialIcon } from "../common/social/SocialIcon";
 import { BlockTitle } from "../common/block title/BlockTitle";
 
-export type AboutPropsType = {};
-export const About: React.FC<AboutPropsType> = ( props ) => {
-	const {} = props
+export const About: React.FC = () => {
 	return (
 		<>
 			<BlockTitle title={'who am i'} id={'section1'}/>
@@ -21,7 +19,7 @@ export const About: React.FC<AboutPropsType> = ( props ) => {
 					   experience in creating SPA (Single Page Applications) using
 					   technologies like React, typescript, javascript, various states
 					   managers and user interface libraries.
-					   I am currently learning Redux Toolkit, RTK Queri and Vitest.</p>
+					   I am currently learning Redux Toolkit, RTK Query and Vitest.</p>
 					<div className={ s.row }>
 						<div className={ s.infoAboutMe }>
 							<span className={ s.desc }>Full Name:</span>

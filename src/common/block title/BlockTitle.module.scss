@@ -31,6 +31,15 @@
     border: 2px solid #31383d;
     max-width: 350px;
     width: 100%;
+    &:before {
+        background-color: #f07f81;
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        bottom: -7px;
+        right: -7px;
+    }
 }
 .title:hover {
     background-color: #72383e;

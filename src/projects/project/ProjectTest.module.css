@@ -31,13 +31,13 @@
 .card h3 {
     font-size: 16px;
     font-weight: 400;
-    color: rgb(0 0 0 / 90%);
+    color: #d9d6d6;
 }
 
 .card p {
     font-size: 14px;
     font-weight: 400;
-    color: rgb(0 0 0 / 70%);
+    color: #d9d6d6;
     margin-bottom: 24px;
 }
 
