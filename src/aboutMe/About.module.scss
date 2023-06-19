@@ -13,7 +13,12 @@
         height: 500px;
         filter: drop-shadow(5px 5px 70px rgba(163, 173, 150, 0.7));
         //box-shadow: 0 0 160px 200px rgba(26, 123, 183, 0.1);
-        border-radius: 25px;
+        transition: transform 0.3s ease-in-out;
+        &:hover {
+            transform: scale(1.2);
+        }
+
+
 
         @media (max-width: 400px) {
             width: 300px;
@@ -42,6 +47,7 @@
             .infoAboutMe {
                 position: relative;
                 width: 100%;
+                margin: 5px;
                 padding-right: 15px;
                 padding-left: 15px;
 

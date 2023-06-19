@@ -7,9 +7,8 @@ export const Footer: React.FC = ( ) => {
 	return (
 		<div className={s.footerBlock}>
 			<div className={s.footerContainer}>
-			<h2>Alexander Zaitsev</h2>
 				<SocialIcon/>
-				<span>Все права защищены</span>
+				<span>© 2023 Alexander Zaitsev. All Rights Reserved.</span>
 			</div>
 		
 		</div>
