@@ -29,11 +29,11 @@ export const About: React.FC = () => {
 					<div className={ s.row }>
 						<div className={ s.infoAboutMe }>
 							<span className={ s.desc }>FULL NAME:</span>
-							<span> Zaitsev Alexander</span>
+							<span className={s.info}> Zaitsev Alexander</span>
 						</div>
 						<div className={ s.infoAboutMe }>
 							<span className={ s.desc }>AGE:</span>
-							<span> 27 Years Old</span>
+							<span className={s.info}> 27 Years Old</span>
 						</div>
 						{/*<div className={ s.infoAboutMe }>*/}
 						{/*	<span className={ s.desc }>EXPERIENCE:</span>*/}
@@ -41,7 +41,7 @@ export const About: React.FC = () => {
 						{/*</div>*/}
 						<div className={ s.infoAboutMe }>
 							<span className={ s.desc }>EMAIL:</span>
-							<span> zaitsev.av.12@gmail.com</span>
+							<span className={s.info}> zaitsev.av.12@gmail.com</span>
 						</div>
 					</div>
 					

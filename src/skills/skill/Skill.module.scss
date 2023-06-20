@@ -13,20 +13,21 @@
     transition: transform 0.2s ease-in-out;
     transform-style: preserve-3d;
     &:hover {
-        transform: scale(1.1) rotateX(10deg) rotateY(6deg);
+        transform: scale(1.125) rotateX(11deg) rotateY(8deg);
+        background-color: #2f2f2f;
+        box-shadow: 15px 15px 30px rgb(25, 25, 25),
+        -10px -10px 45px rgb(51, 49, 49);
     }
 
     .icon {
         width: 80px;
         height: 80px;
-        //background-color: crimson;
         z-index: 1;
     }
     .skill.skillInfo {
         transform: translate(-50%, -50%) rotateY(180deg);
         transform-style: preserve-3d;
         backface-visibility: hidden;
-        //color: white;
     }
     h2 {
         color: white;

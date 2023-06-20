@@ -35,7 +35,7 @@ export const Main: React.FC = () => {
 						<Link to='section1' spy={true}
 						      smooth={true}
 						      offset={-80}
-						      duration={1200} className={s.btn}>Learn more</Link>
+						      duration={1200} className={s.btn}>Learn more <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="#d9d6d6" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m12 20l6-6m-6 6l-6-6m6 6V9.5M12 4v2.5"/></svg></Link>
 					</div>
 				</div>
 			</div>

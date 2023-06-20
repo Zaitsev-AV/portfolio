@@ -87,7 +87,7 @@
             align-items: center;
             justify-content: center;
             .btn {
-                display: inline-block;
+                display:flex;
                 text-align: center;
                 outline: none;
                 margin: 25px;
@@ -98,9 +98,10 @@
                 background-color:  #f07f81;
                 color: #d9d6d6;
                 border: none;
-                border-radius: 2px;
+                border-radius: 3px;
                 text-decoration: none;
                 cursor: pointer;
+
             }
         }
 
@@ -111,7 +112,6 @@
     0% {
         opacity: 0.4;
     }
-
     100% {
         opacity: 1;
     }
