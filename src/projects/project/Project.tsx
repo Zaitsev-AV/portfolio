@@ -2,24 +2,36 @@ import React from 'react';
 import s from './Project.module.scss'
 export type ProjectPropsType = {
 	title: string
-	style?: {
-		backgroundImage: string
-	}
+	path?: string
 	text?: string
 	img?: string
 };
 export const Project: React.FC<ProjectPropsType> = ( props ) => {
-	const {title, style, text} = props
+	const {title, text, img, path} = props
 	return (
-		<a href={'/?'} className={s.wrapper}>
-			<div className={s.projectContainer}>
-				<h3>{title}</h3>
-				<div className={s.imgContainer} style={style}>
-					{/*<a className={s.link} href="/#">look</a>*/}
+		<div className={ s.card_container }>
+			<div className={ s.card }>
+				<div className={ s.front_content }>
+					<p>{ title }</p>
+					<img src={img}
+					     alt=""/>
 				</div>
-				<span className={s.description}>{text}</span>
+				{/*<div className={s.imgContainer} style={style}>*/ }
+				{/*<a className={s.link} href="/#">look</a>*/ }
+				{/*</div>*/ }
+				<div className={ s.content }>
+					<p className={ s.heading }>
+						Technologies used
+					</p>
+					<p className={ s.description }>
+						{ text }
+					</p>
+					<a href={'https://github.com/Zaitsev-AV/quiz'} className={s.btn}>
+						<a href={'https://github.com/Zaitsev-AV/quiz'}>View</a>
+					</a>
+				</div>
 			</div>
-		</a>
+			</div>
 		
 	);
 };
