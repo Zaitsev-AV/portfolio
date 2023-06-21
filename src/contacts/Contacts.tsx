@@ -2,11 +2,8 @@ import React from 'react';
 import s from './Contacts.module.scss'
 import { BlockTitle } from "../common/block title/BlockTitle";
 import { Animation } from "../common/animation/Animation";
-export type ContactsPropsType = {
 
-};
-export const Contacts: React.FC<ContactsPropsType> = ( props ) => {
-	const {} = props
+export const Contacts: React.FC = ( ) => {
 	return (
 		<>
 			<div className={s.contactsBlock}>

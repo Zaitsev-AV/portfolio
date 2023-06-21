@@ -1,6 +1,5 @@
 import React, { FC } from 'react'
 import s from './Project.module.scss'
-import { Animation } from '../../common/animation/Animation'
 
 type ProjectPropsType = {
 	img: string
