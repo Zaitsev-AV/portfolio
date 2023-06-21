@@ -3,6 +3,7 @@ import s from './Skills.module.scss'
 import { Skill } from "./skill/Skill";
 import { BlockTitle } from "../common/block title/BlockTitle";
 import { Icon } from '@iconify/react';
+import { Animation } from "../common/animation/Animation";
 
 
 export const Skills: React.FC = () => {
@@ -11,8 +12,9 @@ export const Skills: React.FC = () => {
 			<BlockTitle title={ 'Skills' }
 			            id={ 'section2' }/>
 			<div className={ `${ s.skillsContainer }` }>
-				
+				<Animation animation={"animate__fadeInLeft"} threshold={0.6}>
 				<div className={ s.skills }>
+					
 					<Skill title={ 'React' }>
 						<Icon icon="skill-icons:react-dark"
 						      width={ 80 }
@@ -36,6 +38,7 @@ export const Skills: React.FC = () => {
 						      width={ 80 }
 						      height={ 80 }/>
 					</Skill>
+					
 					<Skill title={ 'Axios' }>
 						<Icon icon="simple-icons:axios"
 						      width={ 80 }
@@ -79,6 +82,7 @@ export const Skills: React.FC = () => {
 					</Skill>
 					
 				</div>
+				</Animation>
 				<div className={s.elements}>
 					<span className={ s.el_1 }></span>
 					<span className={ s.el_2 }></span>

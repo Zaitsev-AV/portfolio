@@ -21,7 +21,6 @@ export const Project: FC<ProjectPropsType> = (props) => {
 			<div className={s.photoWrapper}>
 				<div
 					className={s.photo}
-					// style={{ backgroundImage: `url(${img})` }}
 					onClick={onClickHandle(path)}
 				>
 					<img src={img}
@@ -32,7 +31,7 @@ export const Project: FC<ProjectPropsType> = (props) => {
 			<div className={s.text}>
 				<h3 onClick={onClickHandle(path)}>{title}</h3>
 				<p>{description}</p>
-				<p>{stack}</p>
+				<p>Technology stack: {stack}</p>
 			</div>
 			<div className={s.btnView} onClick={onClickHandle(path)}>
 				<button>View</button>

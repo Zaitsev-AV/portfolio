@@ -30,20 +30,19 @@ export const Projects: React.FC = () => {
 						<Project title={ 'Card' }
 						         img={ card }
 						         path={ 'https://github.com/Zaitsev-AV/cards' }
-						         description={"This application is a unique tool for immersing yourself in the study of various subjects, ranging from the beautiful English language to captivating programming. Here, every user can find answers to a wide range of questions, regardless of their type.\n" +
+						         description={"This unique application allows you to immerse yourself in the study of various subjects, from the English language to programming. You will find answers to diverse questions.\n" +
 							         "\n" +
-							         "One of the main advantages of this application is the ability to create your own decks of flashcards for studying. You have the freedom to determine what information to include in each card: you can add photos, videos, or even questions in textual format. This way, you can customize the learning process according to your preferences and individual needs.\n" +
+							         "Benefits:\n" +
 							         "\n" +
-							         "Moreover, you have the opportunity to explore cards created by other users. This opens up unique perspectives for exchanging knowledge and experiences with the community, expanding your understanding and enriching your erudition.\n" +
-							         "\n" +
-							         "The application offers a modern and appealing interface designed with the best design practices in mind. You can expect ease of use and convenient navigation, allowing you to focus on the learning process while enjoying its aesthetic and functional qualities.\n" +
-							         "\n" +
-							         "Don't miss the chance to broaden your knowledge and develop your skills with this exceptional application. Discover the amazing world of learning that awaits you right here, right now."}
+							         "Create your own decks of flashcards for studying, adding photos, videos, or text-based questions.\n" +
+							         "Explore flashcards created by other users and exchange knowledge.\n" +
+							         "Intuitive and appealing interface for convenient learning."}
 						         stack={ 'React, Redux Toolkit, TypeScript, CSS, Mantine UI, React-Router, Jest, React useForm.' }/>
 						<Project title={ 'Social Network' }
 						         path={ 'https://github.com/Zaitsev-AV/samurai-way-main' }
 						         img={ socNet }
-						         description={ 'React(FC and class component), Redux, TypeScript, React-Router, Jest, StoryBook, useForm, CSS.' }/>
+						         description={'This social network opens up a wide range of possibilities for users to engage in social interactions. Here, you can enjoy browsing through other users\' profiles, easily add new friends or remove existing ones, and actively communicate with like-minded individuals. The platform also features a wall posting functionality, allowing users to share their thoughts, ideas, inspirations, and creative achievements.'}
+						         stack={ 'React(FC and class component), Redux, TypeScript, React-Router, Jest, StoryBook, useForm, CSS.' }/>
 					</div>
 				</div>
 			</div>
