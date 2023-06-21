@@ -17,7 +17,7 @@ const onClickHandle = (src: string) => {
 export const Project: FC<ProjectPropsType> = (props) => {
 	const { img, title, description, path, stack} = props
 	return (
-		<Animation className={s.project} animation={'animate__fadeInUp'} threshold={0.4}>
+		<div className={s.project} >
 			<div className={s.photoWrapper}>
 				<div
 					className={s.photo}
@@ -36,7 +36,7 @@ export const Project: FC<ProjectPropsType> = (props) => {
 			<div className={s.btnView} onClick={onClickHandle(path)}>
 				<button>View</button>
 			</div>
-		</Animation>
+		</div>
 	)
 }
 

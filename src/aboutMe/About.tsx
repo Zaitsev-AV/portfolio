@@ -53,7 +53,7 @@ export const About: React.FC = () => {
 					</div>
 					</Animation>
 					<Animation className={ s.social } animation={"animate__zoomIn"} threshold={0.5}>
-						<a href="#"
+						<a href="https://drive.google.com/file/d/1T7_p6XNzKSIFXGm3SDTbWzKlCO1gdjIp/view?usp=drive_link"
 						   className={ `${ s.btn } ${ s.btn_outline_primary }` }>Download CV</a>
 						<div className={ s.social_btn }>
 							<SocialIcon/>

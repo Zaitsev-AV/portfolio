@@ -12,6 +12,7 @@
     -5px -5px 30px rgb(51, 49, 49);
     transition: transform 0.2s ease-in-out;
     transform-style: preserve-3d;
+
     &:hover {
         transform: scale(1.125) rotateX(11deg) rotateY(8deg);
         background-color: #2f2f2f;
