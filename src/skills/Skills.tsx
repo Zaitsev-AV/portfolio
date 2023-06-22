@@ -12,7 +12,6 @@ export const Skills: React.FC = () => {
 			<BlockTitle title={ 'Skills' }
 			            id={ 'section2' }/>
 			<div className={ `${ s.skillsContainer }` }>
-				<Animation animation={"animate__fadeInLeft"} threshold={0.6}>
 				<div className={ s.skills }>
 					
 					<Skill title={ 'React' }>
@@ -82,7 +81,6 @@ export const Skills: React.FC = () => {
 					</Skill>
 					
 				</div>
-				</Animation>
 				<div className={s.elements}>
 					<span className={ s.el_1 }></span>
 					<span className={ s.el_2 }></span>
